@@ -1,0 +1,54 @@
+2023-03-07 17:44:51,915 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:44:52,640 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:44:54,241 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:44:55,042 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:01,715 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:03,296 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:04,097 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:06,812 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:07,614 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:08,659 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:09,459 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:11,062 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:11,863 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:13,465 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:14,266 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:15,868 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:16,669 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-03-07 17:45:18,271 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Undefined RTN Error
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)

@@ -1,0 +1,2310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocolConfig>
+  <filetype>Protocol</filetype>
+  <modeText_Group />
+  <maintainHistory />
+  <maintainHistory />
+  <basicConfig>
+    <protocolName>BMS073-XXXX</protocolName>
+    <protocolVersion>2.6</protocolVersion>
+    <ignoreCheckRTN>0</ignoreCheckRTN>
+    <ignoreCheckLEN>0</ignoreCheckLEN>
+    <freshMode>Continuous</freshMode>
+    <freshDuty>2</freshDuty>
+    <batVoltName>Pack Voltage</batVoltName>
+    <batAmpName>Current</batAmpName>
+    <batCurCapName>Remain Capacity</batCurCapName>
+    <batAllCapName>Total Battery Capacity</batAllCapName>
+    <cellTmprPreName>Battery_Temp</cellTmprPreName>
+    <protocolMeterTmprType>K</protocolMeterTmprType>
+    <protocolParaTmprType>K</protocolParaTmprType>
+  </basicConfig>
+  <teleMeter_Group>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Cell</teleMeterType>
+      <teleMeterNode>
+        <Name>Cell01</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell02</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell03</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell04</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell05</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell06</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell07</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell08</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell09</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell10</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell11</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell12</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell13</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell14</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell15</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Cell16</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>Battery_Temp1</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Battery_Temp2</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Battery_Temp3</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Battery_Temp4</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Environment_Temp</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Power Temp</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>Current</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>A</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Pack Voltage</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Remain Capacity</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>Ah</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>Total Battery Capacity</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>Ah</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Battery Cycles</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>times</UnitName>
+        <Scale>1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Total Discharge Capacity</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>AH</UnitName>
+        <Scale>10</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>SOH</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>%</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+  </teleMeter_Group>
+  <teleControl_Group>
+    <teleCtrlByteNum>2</teleCtrlByteNum>
+    <teleControl>
+      <Name>DISCHG Ctrl</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>0</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>CHG_Ctrl</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>1</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>LMCHG_Ctrl</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>2</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Heat_Ctrl</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>3</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>SYS_OFF</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Recovery</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>5</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+    <teleControl>
+      <Name>GYRO_INIT</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>7</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+    <teleControl>
+      <Name>GYRO_unlock</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>0</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+  </teleControl_Group>
+  <teleSignal_Group>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>Cell01</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell01</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell02</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell02</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell03</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell03</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell04</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell04</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell05</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell05</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell06</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell06</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell07</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell07</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell08</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell08</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell09</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell09</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell10</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell10</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell11</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell11</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell12</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell12</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell13</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell13</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell14</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell14</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell15</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell15</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Cell16</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Cell16</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>Battery_Temp1</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Battery_Temp1</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Battery_Temp2</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Battery_Temp2</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Battery_Temp3</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Battery_Temp3</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Battery_Temp4</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Battery_Temp4</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Environment_Temp</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Environment_Temp</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Power Temp</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Power Temp</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>Current</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Current</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Pack Voltage</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Pack Voltage</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>Ext_Bit</SignalType>
+      <ByteNumAdjust>-1</ByteNumAdjust>
+      <teleSignal>
+        <Name>Balance On</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Static Balance</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Static Balance Timeout</Name>
+        <Type>Protect</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Over Temp Prohibit Balanced</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Communication Protect ON</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Gyroscope ON</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Cell Over Voltage Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Cell Over Voltage Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Cell Under Voltage Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Cell Under Voltage Protect </Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Pack Over Voltage Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Pack Over Voltage Protect </Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Pack Under Voltage Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Pack Under Voltage Protect </Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Over Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Over Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Under Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Under Temp Protect Release</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Over Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Over Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Under Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Under Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Environment Over Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Environment Over Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Environment Under Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Environment Under Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>MOSFET Over Temp Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Fire Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>MOSFET Over Temp Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Current Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge Current Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Secondary Over Charge Current Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Current Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge Current Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Secondary Over Discharge Current Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Short Circuit Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Reverse Connection Protect</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Over Charge Current Protect Locking</Name>
+        <Type>Protect</Type>
+        <ByteIndex>5</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Over Discharge Current Protect Locking</Name>
+        <Type>Protect</Type>
+        <ByteIndex>5</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Short Circuit Protect Locking</Name>
+        <Type>Protect</Type>
+        <ByteIndex>5</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>SOC Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Need Calibration Zero</Name>
+        <Type>Warn</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>The zero of the gyroscope is not calibrated</Name>
+        <Type>Warn</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Gyroscope Locked</Name>
+        <Type>Protect</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Voltage Difference Failure</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>NTC Failure</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>AFE Failure</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Charge MOSFET Failure</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Discharge MOSFET Failure</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Communication Anti-Theft</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Gyroscope Failure Alarm</Name>
+        <Type>Warn</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>DISCHG_MOSFET On</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <linkTeleCtrlName>DISCHG Ctrl</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>CHG_MOSFET On</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <linkTeleCtrlName>CHG_Ctrl</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>LMCHG_MOSFET On</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <linkTeleCtrlName>Current Limit Switch</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Heat_MOSFET On</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <linkTeleCtrlName>Heat Switch</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance1</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <LinkTeleMeterName>Cell01</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance2</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <LinkTeleMeterName>Cell02</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance3</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <LinkTeleMeterName>Cell03</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance4</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <LinkTeleMeterName>Cell04</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance5</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>4</BitIndex>
+        <LinkTeleMeterName>Cell05</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance6</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>5</BitIndex>
+        <LinkTeleMeterName>Cell06</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance7</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>6</BitIndex>
+        <LinkTeleMeterName>Cell07</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance8</Name>
+        <Type>Normal</Type>
+        <ByteIndex>9</ByteIndex>
+        <BitIndex>7</BitIndex>
+        <LinkTeleMeterName>Cell08</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance9</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <LinkTeleMeterName>Cell09</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance10</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <LinkTeleMeterName>Cell10</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance11</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <LinkTeleMeterName>Cell11</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance12</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <LinkTeleMeterName>Cell12</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance13</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>4</BitIndex>
+        <LinkTeleMeterName>Cell13</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance14</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>5</BitIndex>
+        <LinkTeleMeterName>Cell14</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance15</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>6</BitIndex>
+        <LinkTeleMeterName>Cell15</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Balance16</Name>
+        <Type>Normal</Type>
+        <ByteIndex>10</ByteIndex>
+        <BitIndex>7</BitIndex>
+        <LinkTeleMeterName>Cell16</LinkTeleMeterName>
+      </teleSignal>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <SignalType>Mode_Byte</SignalType>
+      <modeText>
+        <value>1</value>
+        <text>Discharge</text>
+      </modeText>
+      <modeText>
+        <value>2</value>
+        <text>Charge</text>
+      </modeText>
+      <modeText>
+        <value>4</value>
+        <text>Float</text>
+      </modeText>
+      <modeText>
+        <value>8</value>
+        <text>Full</text>
+      </modeText>
+      <modeText>
+        <value>10</value>
+        <text>Standby</text>
+      </modeText>
+      <modeText>
+        <value>20</value>
+        <text>Shutdown</text>
+      </modeText>
+    </teleSignal_block>
+  </teleSignal_Group>
+  <int_para_Group>
+    <int_para>
+      <Name>Cell Over Voltage Alarm</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>0</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Over Voltage Alarm Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>1</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Under Voltage Alarm Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>2</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Under Voltage Alarm </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>3</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Over Voltage Protect</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>4</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Over Voltage Protect Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>5</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Under Voltage Protect Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>6</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Under Voltage Protect </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>7</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Voltage Difference Alarm</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>8</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Cell Voltage Difference Alarm Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>9</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Over Voltage Alarm</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Over Voltage Alarm Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Under Voltage Alarm Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Under Voltage Alarm </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Over Voltage Protect </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Over Voltage Protect Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Under Voltage Protect Release</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>10</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pack Under Voltage Protect </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>11</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Number Of Cells</Name>
+      <UnitName>s</UnitName>
+      <ParaIndex>12</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Over Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>13</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Over Temp Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>14</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Under Temp Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>15</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Under Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>16</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Over Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>17</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Over Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>18</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Under Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>19</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Under Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Over Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Over Temp Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Under Temp Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Under Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Over Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Over Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>20</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Under Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>21</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge Under Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>22</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Heat Open Temp</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>23</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Heat Close Temp</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>24</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Over Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>25</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Over Temperature Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>26</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Under Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>27</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Under Temperature Alarm Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>28</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Over Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>29</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Over Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Under Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Environment Under Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>MOSFET Over Temp Protect</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>MOSFET Over Temp Protect Release</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Charge Current Alarm</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>2F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Charge Current Alarm Release</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>30</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Discharge Current Alarm Release</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>31</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Discharge Current Alarm</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>32</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Charge Current Protect</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>33</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Charge Current Protect Delay Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>34</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Secondary Over Charge Current Protect</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>35</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Secondary Over Charge Current Protect Delay Time</Name>
+      <UnitName>mS</UnitName>
+      <ParaIndex>36</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Discharge Current Protect</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>37</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Discharge Current Protect Delay Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>38</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Secondary Over Discharge Current Protect</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>39</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Secondary Over Discharge Current Protect Delay Time</Name>
+      <UnitName>mS</UnitName>
+      <ParaIndex>3A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Short Circuit Protect</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>3B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Short Circuit Protect Delay Time</Name>
+      <UnitName>uS</UnitName>
+      <ParaIndex>3C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Current Protect Release Delay Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>3D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Number Of Over Current Locking</Name>
+      <UnitName>times</UnitName>
+      <ParaIndex>3E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Current Limit Function Setting</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>3F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge Current Limit Time</Name>
+      <UnitName>minutes</UnitName>
+      <ParaIndex>40</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Current Limit Value</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>41</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Short Circuit Locking Times</Name>
+      <UnitName>times</UnitName>
+      <ParaIndex>42</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Pre-charge Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>43</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Nominal Capacity</Name>
+      <UnitName>Ah</UnitName>
+      <ParaIndex>44</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Residual Capacity</Name>
+      <UnitName>Ah</UnitName>
+      <ParaIndex>45</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>SOC Alarm</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>46</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Recharge SOC</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>47</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Sleep Delay Time</Name>
+      <UnitName>minutes</UnitName>
+      <ParaIndex>48</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Balance Max Temp</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>49</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Balance Min Temp</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>4A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Static Balance Time</Name>
+      <UnitName>hours</UnitName>
+      <ParaIndex>4B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Start Balance Voltage </Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>4C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Start Balance Voltage Difference</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>4D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Stop Balance Voltage Difference</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>4E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Short Circuit Protect Release Delay Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>4F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Wake-up Delay Time</Name>
+      <UnitName>minutes</UnitName>
+      <ParaIndex>50</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Wake-up Times</Name>
+      <UnitName>times</UnitName>
+      <ParaIndex>51</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>CAN Agreement </Name>
+      <UnitName />
+      <ParaIndex>52</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Communication Anti-theft Delay Time</Name>
+      <UnitName>min</UnitName>
+      <ParaIndex>53</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>SOC Alarm Release Value</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>54</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Under Voltage Protect Sleep Delay Time</Name>
+      <UnitName>minutes</UnitName>
+      <ParaIndex>55</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Over Charge Current Protect Release Delay Time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>56</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>MOSFET Over Temp Alarm</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>57</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>The power overtemperature alarm is cleared</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>58</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge cut-off voltage</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>59</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge cut-off voltage</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>5A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charging current limit value</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>5B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Discharge current limit</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>5C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge detection interval</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>5D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charge detection times</Name>
+      <UnitName>Times</UnitName>
+      <ParaIndex>5E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Charging detection working time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>5F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Effective discharge time</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>60</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>SOC LOW</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>61</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>SOC high</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>62</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>External 485 protocol number</Name>
+      <UnitName />
+      <ParaIndex>63</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+  </int_para_Group>
+  <bit_para_Group>
+    <bitParaStartIndex>64</bitParaStartIndex>
+    <bitParaByteNum>8</bitParaByteNum>
+    <bit_para>
+      <Name>Cell Over Voltage Alarm</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Cell Over Voltage Protect</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Cell Under Voltage Alarm</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Cell Under Voltage Protect </Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Pack Over Voltage Alarm</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Pack Over Voltage Protect </Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Pack Under Voltage Alarm</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Pack Under Voltage Protect </Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Charge Over Temp Alarm</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Charge Over Temp Protect</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Charge Under Temp Alarm</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Charge Under Temp Protect</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Discharge Over Temp Alarm</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Discharge Over Temp Protect</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Discharge Under Temp Alarm</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Discharge Under Temp Protect</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Environment Over Temp Alarm</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Environment Over Temp Protect</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Environment Under Temp Alarm</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Environment Under Temp Protect</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>MOSFET Over Temp Protect</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Cell Under Temp Heating</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Fire alarm function</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>MOSFET Over Temp Alarm</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Charge Current Alarm</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Over Charge Current Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Secondary Over Charge Current Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Discharge Current Alarm</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Over Discharge Current Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Secondary Over Discharge Current Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Short Circuit Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Reverse Connection Protect</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Secondary Over Charge Current Protect Locking</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Secondary Over Discharge Current Protect Locking</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Short Circuit Protect Locking</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Fire alarm input mode</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>SOC Alarm</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Intermittent Charge</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>External Switch Control</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Static Standby Sleep</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Historical Data Record</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Passive Current Limiting</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Communication Wake Up</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Balance Function</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Static Balance Function</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Static Balance Time</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Balanced Tem Limit</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Buzzer Function</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>LCD Display Function</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Hardware Failure Dry Contact Switch</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Cell Failure Dry Contact Switch</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Gyroscope Function</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Gyroscope Charging Activation Function</Name>
+      <ByteIndex>7</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+  </bit_para_Group>
+  <adjust_para_Group>
+    <int_para>
+      <Name>Zero Calibration</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>0</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+      <Value>0.00</Value>
+    </int_para>
+    <int_para>
+      <Name>Current Calibration</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>1</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+      <Value>-25.00</Value>
+    </int_para>
+    <int_para>
+      <Name>Voltage Calibration</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>2</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+      <Value>3.300</Value>
+    </int_para>
+  </adjust_para_Group>
+  <warnHistory>
+    <teleSignalByteNum>7</teleSignalByteNum>
+    <teleSignal>
+      <Name>Voltage Difference Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>NTC Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>AFE Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge MOSFET Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge MOSFET Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Communication Anti-Theft</Name>
+      <Type>Protect</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Gyroscope Failure Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Cell Over Voltage Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Cell Over Voltage Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Cell Under Voltage Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Cell Under Voltage Protect </Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Pack Over Voltage Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Pack Over Voltage Protect </Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Pack Under Voltage Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Pack Under Voltage Protect </Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Over Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Over Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Under Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Under Temp Protect Release</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Over Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Over Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Under Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Under Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Environment Over Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Environment Over Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Environment Under Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Environment Under Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>MOSFET Over Temp Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Fire Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>MOSFET Over Temp Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Current Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Charge Current Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Secondary Over Charge Current Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Current Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Discharge Current Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Secondary Over Discharge Current Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Short Circuit Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Reverse Connection Protect</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Secondary Over Charge Current Protect Locking</Name>
+      <Type>Protect</Type>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Secondary Over Discharge Current Protect Locking</Name>
+      <Type>Protect</Type>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Short Circuit Protect Locking</Name>
+      <Type>Protect</Type>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>SOC Alarm</Name>
+      <Type>Warn</Type>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Need Calibration Zero</Name>
+      <Type>Warn</Type>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>The zero of the gyroscope is not calibrated</Name>
+      <Type>Warn</Type>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Gyroscope Locked</Name>
+      <Type>Protect</Type>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleMeter>
+      <Name>Current</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>A</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Pack Voltage</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Remain Capacity</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>Ah</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Total Discharge Capacity</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>Ah</UnitName>
+      <Scale>10</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>SOH</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>%</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Battery_Temp1</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Battery_Temp2</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Battery_Temp3</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Battery_Temp4</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Environment_Temp</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Power Temp</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell01</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell02</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell03</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell04</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell05</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell06</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell07</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell08</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell09</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell10</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell11</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell12</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell13</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell14</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell15</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Cell16</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+  </warnHistory>
+</protocolConfig>

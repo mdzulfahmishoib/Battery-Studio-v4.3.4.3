@@ -1,0 +1,273 @@
+2023-05-10 18:49:15,583 [4] ERROR BatteryStudio.CommonFun - ??????????!
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 58.247.103.90:8558
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.MyNetworkStream.CreateSocketStream(MySqlConnectionStringBuilder settings, IPAddress ip, Boolean unix)
+   at MySql.Data.Common.MyNetworkStream.CreateStream(MySqlConnectionStringBuilder settings, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at BatteryStudio.MySqlHelper.GetDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters)
+   at BatteryStudio.CommonFun.GetRemotePartNumber(Int32 commun)
+2023-05-10 18:49:15,645 [4] ERROR BatteryStudio.CommonFun - ????NoDisplay????!
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 58.247.103.90:8558
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.MyNetworkStream.CreateSocketStream(MySqlConnectionStringBuilder settings, IPAddress ip, Boolean unix)
+   at MySql.Data.Common.MyNetworkStream.CreateStream(MySqlConnectionStringBuilder settings, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at BatteryStudio.MySqlHelper.GetDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters)
+   at BatteryStudio.CommonFun.GetRemoteNoDisplay()
+2023-05-10 18:51:19,821 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:53:59,940 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:56:33,690 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:57:37,348 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:58:12,517 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:59:18,879 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 18:59:37,334 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:00:38,878 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:02:17,083 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:06:21,373 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:06:21,437 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:54,228 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:54,691 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:55,425 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:55,855 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:56,284 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:56,711 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:57,140 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:57,570 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:57,998 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:39:58,426 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:33,743 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:34,185 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:34,917 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:35,346 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:35,775 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:36,206 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:36,633 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:37,061 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:37,491 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:37,919 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:38,349 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:38,776 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:39,204 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:39,632 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:40,060 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:40,488 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:40,918 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:42,463 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:42,893 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:43,627 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:44,056 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.FormatException: Could not find any recognizable digits.
+   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToByte(String value, Int32 fromBase)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:44,490 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:44,918 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:45,345 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:45,774 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:45,901 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:46,331 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:46,759 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:47,188 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:47,617 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:48,044 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:48,474 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:48,902 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:49,329 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:50,874 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:51,302 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:40:52,040 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: Format error(SOI)
+   at BatteryStudio.ASCIIDataFrame.Parse(String frameStr, Boolean isAscInfo)
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:43:47,386 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:15,243 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:20,788 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:23,908 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:31,892 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:35,475 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:39,703 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:43,620 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-05-10 19:46:47,974 [1] ERROR BatteryStudio.MainWindow - ??????!
+System.Exception: UnsupportCommand
+   at BatteryStudio.MainWindow.BackgroundWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)

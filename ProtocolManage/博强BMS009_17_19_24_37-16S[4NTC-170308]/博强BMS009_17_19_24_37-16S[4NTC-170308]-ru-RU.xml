@@ -1,0 +1,1841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocolConfig>
+  <filetype>Protocol</filetype>
+  <modeText_Group />
+  <maintainHistory />
+  <basicConfig>
+    <protocolName>BMS01-XXXX</protocolName>
+    <protocolVersion>2.6</protocolVersion>
+    <ignoreCheckRTN>0</ignoreCheckRTN>
+    <ignoreCheckLEN>0</ignoreCheckLEN>
+    <freshMode>Continuous</freshMode>
+    <freshDuty>2</freshDuty>
+    <batVoltName>Напряжение батареи</batVoltName>
+    <batAmpName>Ток</batAmpName>
+    <batCurCapName>Остаточная ёмкость</batCurCapName>
+    <batAllCapName>Номинальная ёмкость</batAllCapName>
+    <cellTmprPreName>температура батарей</cellTmprPreName>
+    <protocolMeterTmprType>K</protocolMeterTmprType>
+    <protocolParaTmprType>K</protocolParaTmprType>
+  </basicConfig>
+  <teleMeter_Group>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Cell</teleMeterType>
+      <teleMeterNode>
+        <Name>Элемент01</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент02</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент03</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент04</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент05</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент06</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент07</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент08</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент09</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент10</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент11</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент12</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент13</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент14</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент15</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Элемент16</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.001</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>температура батарей1</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>температура батарей2</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>температура батарей3</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>температура батарей4</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>температуры окружающей среды</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>температура  мощности</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>℃</UnitName>
+        <Scale>0.1</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>Ток</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>A</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Напряжение батареи</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>V</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Остаточная ёмкость</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>Ah</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+    <teleMeter_Block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <teleMeterType>Other</teleMeterType>
+      <teleMeterNode>
+        <Name>Номинальная ёмкость</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>Ah</UnitName>
+        <Scale>0.01</Scale>
+      </teleMeterNode>
+      <teleMeterNode>
+        <Name>Количество циклов</Name>
+        <ByteNum>2</ByteNum>
+        <UnitName>число</UnitName>
+        <Scale>1</Scale>
+      </teleMeterNode>
+    </teleMeter_Block>
+  </teleMeter_Group>
+  <teleControl_Group>
+    <teleCtrlByteNum>2</teleCtrlByteNum>
+    <teleControl>
+      <Name>Контр. разряда</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>0</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Контр. заряда</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>1</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Контр. огранич. Тока</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>2</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Контр. нагревателя</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>3</BitIndex>
+      <Type>OnOff</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Выкл. системы</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+    <teleControl>
+      <Name>Восстан. завод. настроек</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>5</BitIndex>
+      <Type>Simple</Type>
+    </teleControl>
+  </teleControl_Group>
+  <teleSignal_Group>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>Элемент01</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент01</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент02</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент02</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент03</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент03</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент04</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент04</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент05</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент05</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент06</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент06</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент07</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент07</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент08</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент08</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент09</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент09</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент10</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент10</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент11</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент11</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент12</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент12</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент13</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент13</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент14</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент14</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент15</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент15</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Элемент16</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Элемент16</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>температура батарей1</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температура батарей1</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>температура батарей2</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температура батарей2</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>температура батарей3</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температура батарей3</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>температура батарей4</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температура батарей4</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>температуры окружающей среды</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температуры окружающей среды</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>температура  мощности</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>температура  мощности</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <SignalType>GB_Byte</SignalType>
+      <teleSignalGB>
+        <Name>Ток</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Ток</LinkTeleMeterName>
+      </teleSignalGB>
+      <teleSignalGB>
+        <Name>Напряжение батареи</Name>
+        <Type>Protect</Type>
+        <LinkTeleMeterName>Напряжение батареи</LinkTeleMeterName>
+      </teleSignalGB>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>True</NumFieldEnable>
+      <SignalType>Ext_Bit</SignalType>
+      <ByteNumAdjust>-1</ByteNumAdjust>
+      <teleSignal>
+        <Name>Балансировка включена</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Идет статическая балансировка</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Балансировка - отключена из-за температуры</Name>
+        <Type>Protect</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Идет нагрев окружающей среды от нагревателя</Name>
+        <Type>Normal</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - сбой в работе батареи</Name>
+        <Type>Warn</Type>
+        <ByteIndex>0</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - высокое напряжение на элементе</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - превышено напряжение на элементе</Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - низкое напряжение на элементе</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - от низкого напряжения на элементе</Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - высокое общее напряжение батареи</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - превышано общее напряжение батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - низкое общее напряжение батареи</Name>
+        <Type>Warn</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - занижено общее напряжение батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>1</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - зарядка  при высокой температуре</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - При слишком высокой  температуре  зарядки</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - в  низкой  температуре  зарядки</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - зарядка  задолжал  температура</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - выполнять  при высокой температуре</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - При слишком высокой  температуре  разгрузки</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - в  более низкой температуры  разгрузки</Name>
+        <Type>Warn</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - выполнять  задолжал  температура</Name>
+        <Type>Protect</Type>
+        <ByteIndex>2</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - высокая температура окружающей среды</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - высокая температура  окружающей среды</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - низкой температура окружающей среды</Name>
+        <Type>Warn</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - низкая температура  окружающей среды</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - высокая температура  мощности</Name>
+        <Type>Protect</Type>
+        <ByteIndex>3</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - высокий ток заряда батареи</Name>
+        <Type>Warn</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>0</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - от перегрузки по току заряда батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>1</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - высокий ток разряда батареи</Name>
+        <Type>Warn</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - от перегрузки по току разряда батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - 2-го уровня от перегрузки по току разряда батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>4</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Защита - от короткого замыкания</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>5</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Блокировка защиты 2-го уровня от перегрузки по току заряда батареи</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>6</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Кратковременная блокировка выхода</Name>
+        <Type>Protect</Type>
+        <ByteIndex>4</ByteIndex>
+        <BitIndex>7</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Тревога - Остаточная ёмкость</Name>
+        <Type>Warn</Type>
+        <ByteIndex>5</ByteIndex>
+        <BitIndex>2</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Без  калибровки  нулей</Name>
+        <Type>Warn</Type>
+        <ByteIndex>5</ByteIndex>
+        <BitIndex>3</BitIndex>
+      </teleSignal>
+      <teleSignal>
+        <Name>Разряд</Name>
+        <Type>Normal</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <linkTeleCtrlName>Контр. разряда</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Заряд</Name>
+        <Type>Normal</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <linkTeleCtrlName>Контр. заряда</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Ограничение тока</Name>
+        <Type>Normal</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <linkTeleCtrlName>ограничение  тока  переключатель</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Нагреватель</Name>
+        <Type>Normal</Type>
+        <ByteIndex>6</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <linkTeleCtrlName>отопление переключатель</linkTeleCtrlName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс1</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <LinkTeleMeterName>Элемент01</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс2</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <LinkTeleMeterName>Элемент02</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс3</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <LinkTeleMeterName>Элемент03</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс4</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <LinkTeleMeterName>Элемент04</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс5</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>4</BitIndex>
+        <LinkTeleMeterName>Элемент05</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс6</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>5</BitIndex>
+        <LinkTeleMeterName>Элемент06</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс7</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>6</BitIndex>
+        <LinkTeleMeterName>Элемент07</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс8</Name>
+        <Type>Normal</Type>
+        <ByteIndex>7</ByteIndex>
+        <BitIndex>7</BitIndex>
+        <LinkTeleMeterName>Элемент08</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс9</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>0</BitIndex>
+        <LinkTeleMeterName>Элемент09</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс10</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>1</BitIndex>
+        <LinkTeleMeterName>Элемент10</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс11</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>2</BitIndex>
+        <LinkTeleMeterName>Элемент11</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс12</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>3</BitIndex>
+        <LinkTeleMeterName>Элемент12</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс13</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>4</BitIndex>
+        <LinkTeleMeterName>Элемент13</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс14</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>5</BitIndex>
+        <LinkTeleMeterName>Элемент14</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс15</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>6</BitIndex>
+        <LinkTeleMeterName>Элемент15</LinkTeleMeterName>
+      </teleSignal>
+      <teleSignal>
+        <Name>Баланс16</Name>
+        <Type>Normal</Type>
+        <ByteIndex>8</ByteIndex>
+        <BitIndex>7</BitIndex>
+        <LinkTeleMeterName>Элемент16</LinkTeleMeterName>
+      </teleSignal>
+    </teleSignal_block>
+    <teleSignal_block>
+      <NumFieldEnable>False</NumFieldEnable>
+      <SignalType>Mode_Byte</SignalType>
+      <modeText>
+        <value>1</value>
+        <text>Разряд</text>
+      </modeText>
+      <modeText>
+        <value>2</value>
+        <text>Заряд</text>
+      </modeText>
+      <modeText>
+        <value>4</value>
+        <text>Флотирующий</text>
+      </modeText>
+      <modeText>
+        <value>8</value>
+        <text>Заряжена</text>
+      </modeText>
+      <modeText>
+        <value>10</value>
+        <text>Ожидание</text>
+      </modeText>
+      <modeText>
+        <value>20</value>
+        <text>Выключена</text>
+      </modeText>
+    </teleSignal_block>
+  </teleSignal_Group>
+  <int_para_Group>
+    <int_para>
+      <Name>Тревога - мономер  высокого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>0</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - мономер  высокого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>1</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - мономер  низкого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>2</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - мономер  низкого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>3</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - превышено напряжение на элементе</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>4</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление защиты от высокого напряжения на элементе</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>5</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление защиты от низкого напряжения на элементе</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>6</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - от низкого напряжения на элементе</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>7</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Перепад давления - мономер  провал</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>8</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Перепад давления - восстановить не удалось</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>9</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - общее давление  высокого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - общее давление  высокого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - общее давление  низкого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - общее давление  низкого давления</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - превышано общее напряжение батареи</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление защиты от превышения напряжения батареи</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление защиты от низкого напряжения батареи</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>10</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - занижено общее напряжение батареи</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>11</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Количество элементов в батарее при последовательном соединении</Name>
+      <UnitName>число</UnitName>
+      <ParaIndex>12</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - зарядка  при высокой температуре</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>13</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - зарядка  при высокой температуре</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>14</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - в  низкой  температуре  зарядки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>15</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - в  низкой  температуре  зарядки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>16</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - При слишком высокой  температуре  зарядки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>17</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - При слишком высокой  температуре  зарядки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>18</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - зарядка  задолжал  температура</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>19</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - зарядка  задолжал  температура</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - выполнять  при высокой температуре</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - выполнять  при высокой температуре</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - в  более низкой температуры  разгрузки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - в  более низкой температуры  разгрузки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - При слишком высокой  температуре  разгрузки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>1F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - При слишком высокой  температуре  разгрузки</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>20</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - выполнять  задолжал  температура</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>21</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - выполнять  задолжал  температура</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>22</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>электрический основных  начал  отопление</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>23</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>электрический основных  прекратить  отопление</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>24</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - высокая температура окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>25</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - низкой температура окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>26</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - высокая температура  окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>27</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - высокая температура  окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>28</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - низкая температура  окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>29</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - низкая температура  окружающей среды</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - высокая температура  мощности</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - высокая температура  мощности</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>2C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - слишком большой  зарядного тока</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>2D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - слишком большой  зарядного тока</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>2E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление - разрядный ток  слишком большой</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>2F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - разрядный ток  слишком большой</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>30</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - перегрузка по току заряда батареи</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>31</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время срабатывания защиты от перегрузки по току заряда батареи</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>32</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - перегрузка по току разряда батареи</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>33</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время срабатывания защиты от перегрузки по току разряда батареи</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>34</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - 2-го уровня от перегрузки по току разряда батареи</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>35</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время срабатывания 2-го уровня защиты от перегрузки по току разряда батареи</Name>
+      <UnitName>mS</UnitName>
+      <ParaIndex>36</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Защита - от короткого замыкания</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>37</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время срабатывания защиты от короткого замыкания</Name>
+      <UnitName>uS</UnitName>
+      <ParaIndex>38</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время восстановления защиты от перегрузки по току</Name>
+      <UnitName>S</UnitName>
+      <ParaIndex>39</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Количество блокировок защиты от перегрузки по току </Name>
+      <UnitName>число</UnitName>
+      <ParaIndex>3A</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина предельного значения тока заряда батареи (ограничение тока заряда)</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>3B</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Номинальная ёмкость батареи</Name>
+      <UnitName>Ah</UnitName>
+      <ParaIndex>3C</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>SOC</Name>
+      <UnitName>Ah</UnitName>
+      <ParaIndex>3D</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+    </int_para>
+    <int_para>
+      <Name>Тревога - Остаточная ёмкость</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>3E</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Восстановление потенциала  зарядки</Name>
+      <UnitName>%</UnitName>
+      <ParaIndex>3F</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Сроки - ждущий  сна</Name>
+      <UnitName>час</UnitName>
+      <ParaIndex>40</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина высокой температуры при которой прекращается балансировка элементов в батарее</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>41</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина низкой температуры при которой прекращается балансировка элементов в батарее</Name>
+      <UnitName>℃</UnitName>
+      <ParaIndex>42</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Время статической балансировки элементов в батарее</Name>
+      <UnitName>час</UnitName>
+      <ParaIndex>43</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>1</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина напряжения при котором включается балансировка элементов батареи</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>44</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина разницы напряжения на элементах при котором начинается балансировка элементов в батарее</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>45</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+    <int_para>
+      <Name>Величина разницы напряжения на элементах при котором закрыть балансировка элементов в батарее</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>46</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+    </int_para>
+  </int_para_Group>
+  <bit_para_Group>
+    <bitParaStartIndex>47</bitParaStartIndex>
+    <bitParaByteNum>7</bitParaByteNum>
+    <bit_para>
+      <Name>Тревога - высокое напряжение на элементе</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - превышено напряжение на элементе</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - низкое напряжение на элементе</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - от низкого напряжения на элементе</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - высокое общее напряжение батареи</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - превышано общее напряжение батареи</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - низкое общее напряжение батареи</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - занижено общее напряжение батареи</Name>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - зарядка  при высокой температуре</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - зарядка  при высокой температуре</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - в  низкой  температуре  зарядки</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - в  низкой  температуре  зарядки</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - выполнять  при высокой температуре</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - выполнять  при высокой температуре</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - в  более низкой температуры  разгрузки</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - в  более низкой температуры  разгрузки</Name>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - высокая температура окружающей среды</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - высокая температура окружающей среды</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - низкой температура окружающей среды</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - низкая температура окружающей среды</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - высокая температура на силовых ключах</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Нагрев Элемент при низкой температуре</Name>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - высокий ток заряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - перегрузка по току заряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - высокий ток разряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - перегрузка по току разряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - 2-го уровня от перегрузки по току разряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Защита - от короткого замыкания</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Блокировка защиты 2-го уровня от перегрузки по току заряда батареи</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Кратковременная блокировка выхода</Name>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - Остаточная ёмкость</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>прерывистый заряд</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Внешние  переключатель контроля</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>статический ждущий  сна</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>исторические  записи данных</Name>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Элемент Балансировка</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Идет статическая балансировка</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Время статической балансировки элементов в батарее</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Температурное ограничение включения функции балансировки</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Тревога - сбой в работе батареи</Name>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Звуковой сигнал</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </bit_para>
+    <bit_para>
+      <Name>Функция LCD  дисплея</Name>
+      <ByteIndex>6</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </bit_para>
+  </bit_para_Group>
+  <adjust_para_Group>
+    <int_para>
+      <Name>Калибровка нуля</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>0</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+      <Value>0.00</Value>
+    </int_para>
+    <int_para>
+      <Name>Калибровка тока</Name>
+      <UnitName>A</UnitName>
+      <ParaIndex>1</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.01</Scale>
+      <Value>-25.00</Value>
+    </int_para>
+    <int_para>
+      <Name>Калибровка напряжения</Name>
+      <UnitName>V</UnitName>
+      <ParaIndex>2</ParaIndex>
+      <ByteNum>2</ByteNum>
+      <Scale>0.001</Scale>
+      <Value>3.300</Value>
+    </int_para>
+  </adjust_para_Group>
+  <warnHistory>
+    <teleSignalByteNum>6</teleSignalByteNum>
+    <teleSignal>
+      <Name>Тревога - сбой в работе батареи</Name>
+      <Type>Warn</Type>
+      <ByteIndex>0</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - высокое напряжение на элементе</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - превышено напряжение на элементе</Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - низкое напряжение на элементе</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - от низкого напряжения на элементе</Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - высокое общее напряжение батареи</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - превышано общее напряжение батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - низкое общее напряжение батареи</Name>
+      <Type>Warn</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - занижено общее напряжение батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>1</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - зарядка  при высокой температуре</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - При слишком высокой  температуре  зарядки</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - в  низкой  температуре  зарядки</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - зарядка  задолжал  температура</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - выполнять  при высокой температуре</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - При слишком высокой  температуре  разгрузки</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - в  более низкой температуры  разгрузки</Name>
+      <Type>Warn</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - выполнять  задолжал  температура</Name>
+      <Type>Protect</Type>
+      <ByteIndex>2</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - высокая температура окружающей среды</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - высокая температура  окружающей среды</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - низкой температура окружающей среды</Name>
+      <Type>Warn</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - низкая температура  окружающей среды</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - высокая температура  мощности</Name>
+      <Type>Protect</Type>
+      <ByteIndex>3</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - высокий ток заряда батареи</Name>
+      <Type>Warn</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>0</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - от перегрузки по току заряда батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>1</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - высокий ток разряда батареи</Name>
+      <Type>Warn</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - от перегрузки по току разряда батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>3</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - 2-го уровня от перегрузки по току разряда батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>4</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Защита - от короткого замыкания</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>5</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Блокировка защиты 2-го уровня от перегрузки по току заряда батареи</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>6</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Кратковременная блокировка выхода</Name>
+      <Type>Protect</Type>
+      <ByteIndex>4</ByteIndex>
+      <BitIndex>7</BitIndex>
+    </teleSignal>
+    <teleSignal>
+      <Name>Тревога - Остаточная ёмкость</Name>
+      <Type>Warn</Type>
+      <ByteIndex>5</ByteIndex>
+      <BitIndex>2</BitIndex>
+    </teleSignal>
+    <teleMeter>
+      <Name>Ток</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>A</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Напряжение батареи</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Остаточная ёмкость</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>Ah</UnitName>
+      <Scale>0.01</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температура батарей1</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температура батарей2</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температура батарей3</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температура батарей4</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температуры окружающей среды</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>температура  мощности</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>℃</UnitName>
+      <Scale>0.1</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент01</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент02</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент03</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент04</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент05</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент06</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент07</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент08</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент09</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент10</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент11</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент12</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент13</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент14</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент15</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+    <teleMeter>
+      <Name>Элемент16</Name>
+      <ByteNum>2</ByteNum>
+      <UnitName>V</UnitName>
+      <Scale>0.001</Scale>
+    </teleMeter>
+  </warnHistory>
+</protocolConfig>
